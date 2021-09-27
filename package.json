@@ -1,5 +1,5 @@
 {
-  "name": "shiny-mugs",
+  "name": "shinymugs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,18 @@
   },
   "author": "Victoria",
   "license": "ISC",
-  "description": "",
   "dependencies": {},
   "devDependencies": {
     "node-sass": "^6.0.1",
     "nodemon": "^2.0.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictoriaVigano/MiPrimerDesarolloWeb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VictoriaVigano/MiPrimerDesarolloWeb/issues"
+  },
+  "homepage": "https://github.com/VictoriaVigano/MiPrimerDesarolloWeb#readme",
+  "description": ""
 }
