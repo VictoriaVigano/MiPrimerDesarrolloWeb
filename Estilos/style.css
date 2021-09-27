@@ -1,0 +1,335 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans Condensed', sans-serif; }
+
+.logo {
+  width: 120px; }
+
+body {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: black;
+  margin: 0; }
+
+h1 {
+  text-align: center;
+  padding: 15px; }
+
+h2 {
+  text-align: center;
+  font-size: 25px; }
+
+h3 {
+  color: pink;
+  font-size: 25px;
+  padding: 0 px;
+  margin-left: 20px; }
+
+p {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+h4 {
+  color: pink;
+  font-size: 22px;
+  padding: 0 px;
+  margin-left: 20px;
+  text-align: center; }
+
+h5 {
+  font-size: 16px;
+  padding: 10px; }
+
+h6 {
+  font-size: 13px; }
+
+h7 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 16px; }
+
+.divisionLogo {
+  background-color: #ebb7e4;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 1.5px; }
+
+.iconos {
+  width: 40px;
+  float: right;
+  margin-right: 18px;
+  margin-top: 60px; }
+
+a {
+  text-decoration: none; }
+
+.header {
+  height: 180px;
+  background-color: #f5c4f5;
+  color: black; }
+
+header a {
+  color: black;
+  text-decoration: none; }
+
+.containerLogo {
+  display: inline; }
+
+.navigation ul {
+  margin: 0;
+  padding: 15px;
+  list-style: none; }
+
+.navigation {
+  justify-content: space-around;
+  text-align: center;
+  font-size: 20px;
+  word-spacing: 8px; }
+
+.navigation ul {
+  list-style: none; }
+
+.menu > li {
+  position: relative;
+  display: inline-block; }
+
+.menu > li > a {
+  display: inline;
+  padding: 10px 20px;
+  color: black;
+  text-decoration: none; }
+
+.menu li a:hover {
+  background-color: white;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.6s; }
+
+.subMenu {
+  position: absolute;
+  background-color: #f5c4f5;
+  width: 100%;
+  display: none;
+  font-size: 18px;
+  z-index: 1000; }
+
+.subMenu li a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #f5c4f5; }
+
+.menu li:hover .subMenu {
+  display: block; }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+
+.flecha {
+  width: 150px; }
+
+.iconoImagen {
+  width: 230px;
+  display: inline-flexbox;
+  justify-content: space-around; }
+
+.favoritas {
+  margin-top: 3rem;
+  text-align: center; }
+
+.disney {
+  background-color: #ffcaf3;
+  margin-top: 3rem;
+  text-align: center; }
+
+.marvel {
+  background-color: #fbffca;
+  margin-top: 3rem;
+  text-align: center; }
+
+.series {
+  background-color: #eed6fc;
+  margin-top: 3rem;
+  text-align: center; }
+
+#info {
+  text-align: center; }
+
+#info .contenedor2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; }
+
+.masInfo {
+  margin: 20px; }
+
+.masInfo img {
+  width: 180px;
+  height: 180px;
+  border-radius: 60%; }
+
+.infoEnvios {
+  border: 5px solid #e3b3f1;
+  background-color: #e3b3f1; }
+
+.infoDescuento {
+  border: 5px solid #c4fac4;
+  background-color: #c4fac4; }
+
+.infoRetiro {
+  border: 5px solid #d2f4fa;
+  background-color: #d2f4fa; }
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px; }
+
+.item {
+  background-color: white;
+  cursor: pointer;
+  transition: all 300ms;
+  position: relative;
+  border-radius: 15px; }
+
+.item::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  opacity: 0; }
+
+.item:hover:after {
+  opacity: 1;
+  transform: scale(1); }
+
+.item:hover {
+  transform: scale(1.05); }
+
+.item-text {
+  padding: 1em; }
+
+.item-img {
+  max-width: 100%;
+  display: block; }
+
+.mockUp {
+  margin: 25px;
+  margin-top: 50px;
+  width: 350px;
+  padding: 1px;
+  background-color: #dbdbdb; }
+
+.imagenesMockUp {
+  justify-content: center;
+  text-align: center; }
+
+.logoDisney {
+  text-align: center;
+  margin-top: 40px;
+  width: 260px;
+  justify-content: center; }
+
+.bannerCategorias {
+  text-align: center; }
+
+.logoMarvel {
+  text-align: center;
+  margin-top: 40px;
+  width: 470px;
+  justify-content: center; }
+
+table {
+  list-style: georgian; }
+
+table, th, td {
+  margin: 20px;
+  padding: 4px;
+  background-color: #ffffcc;
+  border: 1px solid black;
+  border-collapse: collapse; }
+
+.videoTaza {
+  width: 600px;
+  padding: 10px;
+  height: 10%;
+  margin-left: 15px; }
+
+.pagos {
+  width: 80px;
+  margin: 5px; }
+
+.textoColor {
+  color: #ff75d6;
+  margin: 50px; }
+
+.quienesSomos {
+  text-align: justify;
+  margin: 4%; }
+
+form {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  height: 20%;
+  padding: 10px;
+  width: 300px;
+  background-color: #fff1a3;
+  margin: 20px; }
+
+.mediosDePago {
+  width: 50px;
+  margin: 3px; }
+
+footer {
+  background-color: #dde6eb;
+  padding-left: 15px;
+  margin-top: 20px; }
+
+.contacto {
+  width: 18px;
+  margin: 3px;
+  margin-top: 0px; }
+
+.buttons {
+  min-width: 0px;
+  display: flexbox;
+  justify-content: space-around;
+  margin: 10px;
+  word-spacing: 20px; }
+
+.buttons a {
+  text-decoration: none;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #986bb3;
+  color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #a7a7a7;
+  transition: all .4s ease-in-out; }
+
+.buttons a:hover {
+  transform: scale(1.2); }

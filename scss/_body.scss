@@ -1,0 +1,57 @@
+*{ margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.logo{ 
+    width: 120px;
+}
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: black;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    padding: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+
+h3{
+    color: pink;
+    font-size: 25px;
+    padding: 0 px;
+    margin-left: 20px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h4{
+    color: pink;
+    font-size: 22px;
+    padding: 0 px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+h5{
+    font-size: 16px;
+    padding: 10px;
+}
+
+h6{
+    font-size: 13px;
+}
+
+h7{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 16px;
+}

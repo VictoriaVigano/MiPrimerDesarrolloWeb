@@ -1,0 +1,71 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.flecha {
+    width: 150px;
+}
+.iconoImagen {
+    width: 230px;
+    display:inline-flexbox;
+    justify-content:space-around;
+}
+
+.favoritas{
+    margin-top: 3rem;
+    text-align: center;
+}
+.disney{
+    background-color:rgb(255, 202, 243) ;
+    margin-top: 3rem;
+    text-align: center;
+}
+.marvel{
+    background-color:rgb(251, 255, 202) ;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.series{
+    background-color:rgb(238, 214, 252) ;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+#info .contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.masInfo{
+    margin: 20px;
+}
+
+.masInfo img {
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+}
+
+.infoEnvios{
+    border: 5px solid rgb(227, 179, 241);
+    background-color: rgb(227, 179, 241);
+}
+
+.infoDescuento{
+    border: 5px solid rgb(196, 250, 196);
+    background-color: rgb(196, 250, 196);
+}
+
+.infoRetiro{
+    border: 5px solid rgb(210, 244, 250);
+    background-color: rgb(210, 244, 250);
+}

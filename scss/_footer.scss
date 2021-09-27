@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(221, 230, 235);
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.contacto {
+    width: 18px;
+    margin: 3px;
+    margin-top: 0px;
+}
+
+.buttons{
+    min-width: 0px;
+    display:flexbox;
+    justify-content:space-around;
+    margin: 10px;
+    word-spacing: 20px;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: rgb(152, 107, 179);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(167, 167, 167);
+    transition: all .4s ease-in-out;
+
+}
+
+.buttons a:hover{
+    transform: scale(1.2);
+}

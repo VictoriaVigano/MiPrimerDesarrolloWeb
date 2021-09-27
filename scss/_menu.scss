@@ -1,0 +1,91 @@
+.divisionLogo{
+    background-color: rgb(235, 183, 228);
+    padding-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 1.5px;
+}
+
+.iconos {
+    width:40px;
+    float: right;
+    margin-right: 18px;
+    margin-top: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    height: 180px;
+    background-color: rgb(245, 196, 245);
+    color: black;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+
+.containerLogo{
+    display:inline
+}
+
+.navigation ul{
+    margin: 0;
+    padding: 15px;
+    list-style:none;
+}
+.navigation{
+    justify-content:space-around;
+    text-align: center;
+    font-size: 20px;
+    word-spacing:  8px;
+}
+
+.navigation ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display:inline;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color:  rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+    transition:all 0.6s;
+}
+
+
+.subMenu{
+    position:absolute;
+    background-color: rgb(245, 196, 245);;
+    width: 100%;
+    display: none;
+    font-size: 18px;
+    z-index: 1000
+    
+}
+
+.subMenu li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgb(245, 196, 245);
+}
+
+.menu li:hover .subMenu{
+    display: block;
+}
