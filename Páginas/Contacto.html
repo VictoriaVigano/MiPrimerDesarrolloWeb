@@ -49,11 +49,10 @@
         </div>
     </header>
     <h1>CONTACTO</h1>
-    <!--Formulario-->
-    <form action="" method="POST">
-        <fieldset>
-            <legend>Información Personal</legend>
-            <div>
+    
+    <div class="formulario">
+        <form action="" method="POST">
+                    <div>
                 <label for="nombre:" id="nombre" name= "nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre" required>
             </div>
@@ -70,43 +69,25 @@
                 <input type="number" name="telefono" id="telefono" required>
             </div>
             <div>
-                <label for="pais" id="pais" name="pais">
-                    <span>País:</span>
-                </label>
-                <select name="country" id="country">
-                    <option value="argentina">Argentina</option>
-                    <option value="brasil">Brasil</option>
-                    <option value="mexico">México</option>
-                    <option value="estadosunidos">Estados Unidos</option>
-                    <option value="china">China</option>
-                    <option value="otro">Otro</option>
-                </select>
+                <label for="asunto" id="asunto" name="asunto">Asunto:</label>
+                <input type="text"id="asunto"name="asunto"required>
             </div>
-            <h7>Comentarios:</h7>
             <div>
-                <textarea name="comentarios" id="comentarios" cols="30" rows="10">
+                <label for="consulta" id="consulta" name="consulta">Consulta</label>
+                <textarea name="consulta" id="consulta" cols="19" rows="10">
                 </textarea>
             </div>
+
+            <div>
             <h7>¿Desea suscribirse a nuestra Newsletter?</h7>
-            <div>
                 <input type="radio" name="newsletter" id="newsletter">
-                <label for="newsletter" id="newsletter" name="newsletter">Sí</label>
             </div>
-            <div>
-                <input type="radio" name="nonewsletter" id="nonewsletter">
-                <label for="nonewsletter" id="nonewsletter" name="nonewsletter">No es necesario</label>
-            <div>
-                <input type="submit" value="Enviar Datos">
-            </div>
-            <div>
-                <input type="reset" value="Borrar Datos">
-            </div>
-            <div>
-                <input type="button" value="Sin accion">
-            </div>
-        </fieldset>
-    </form>
             
+            <div>
+                <button class="botonEnviar" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>        
 
     <footer class="footer">
         <h5>COMUNICATE CON NOSOTROS</h5>
