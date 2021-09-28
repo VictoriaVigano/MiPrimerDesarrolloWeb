@@ -10,6 +10,7 @@
     .container{
         grid-template-columns: repeat(3, 1fr);
     }
+}
     
 
 @media screen and (min-width: 1100px){
@@ -30,6 +31,7 @@
         width: auto;
     }
     
+}
 
 .contenedor2 {
     display: flex;
