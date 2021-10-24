@@ -18,19 +18,7 @@ h1 {
 
 h2 {
   text-align: center;
-  display: flex;
-  align-items: center;
-  font-size: 25px; 
-  margin-top: 10px;
-  margin-left: 15px;
-}
-.fav{
-  margin-top: 20px;
-  align-items: center;
-  font-size: 29px;
-  color:#986bb3 ;
-  display: flex;
-}
+  font-size: 25px; }
 
 h3 {
   color: pink;
@@ -43,8 +31,8 @@ p {
   margin-right: 20px; }
 
 h4 {
-  color: black;
-  font-size: 19px;
+  color: pink;
+  font-size: 22px;
   padding: 0 px;
   margin-left: 20px;
   text-align: center; }
@@ -60,8 +48,6 @@ h7 {
   font-size: 18px;
   font-weight: bold;
   margin-left: 16px; }
-
-
 
 .divisionLogo {
   background-color: #ebb7e4;
@@ -147,9 +133,7 @@ main {
   justify-content: center; }
 
 .flecha {
-  width: 70px; 
-  margin-top: 100px;
-}
+  width: 150px; }
 
 .iconoImagen {
   width: 230px;
@@ -157,41 +141,23 @@ main {
   justify-content: space-around; }
 
 .favoritas {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;}
+  margin-top: 3rem;
+  text-align: center; }
 
 .disney {
   background-color: #ffcaf3;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 .marvel {
   background-color: #fbffca;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 .series {
   background-color: #eed6fc;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 #info {
   text-align: center; }
@@ -448,54 +414,3 @@ input:focus, textarea:focus {
 @media (min-width: 768px) {
   .contenedor2 {
     justify-content: space-between; } }
-
-
-
-
-.container2 {
-  width: 110%;
-  max-width: 1200px;
-  margin-left: 35px;
-  margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  display: grid;
-  grid-template-columns: repeat(5, 4fr);
-  grid-gap: 25px;}
-
-.item2 {
-  background-color: white;
-  cursor: pointer;
-  transition: all 300ms;
-  position: relative;
-  border-radius: 05px; 
-  margin-bottom: 5px;
-}
-
-.item2::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.06);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transition: all 300ms;
-  opacity: 0; }
-
-.item2:hover:after {
-  opacity: 1;
-  transform: scale(1); }
-
-.item2:hover {
-  transform: scale(1.05); }
-
-.item-text2 {
-  padding: 1em; }
-
-.item-img2 {
-  max-width: 100%;
-  display: block; 
-}
-
