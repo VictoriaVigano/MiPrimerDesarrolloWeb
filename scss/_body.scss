@@ -13,7 +13,7 @@
     float: right;
     margin-right: 18px;
     margin-top: 60px; }
-    
+
 body{
     font-family: 'Fira Sans Condensed', sans-serif;
     color: black;
@@ -62,3 +62,32 @@ h7{
     font-weight: bold;
     margin-left: 16px;
 }
+
+.iconos{
+    font-size: 35px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: inline-block;
+    }
+    
+  
+  
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: left;
+    line-height: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    display: none;
+  }
+  
+#check{
+    display: none;
+  }
+ 
