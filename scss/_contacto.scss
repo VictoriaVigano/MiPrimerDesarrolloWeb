@@ -1,15 +1,14 @@
-.formulario{
+.formulario {
     justify-content: center;
     display: flex;
     width: 80%;
     margin-top: 100px;
-    justify-content: center;    
-}
+    justify-content: center; }
 
-form{
+form {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(249, 250, 196);
+    background-color: #f9fac4;
     width: 40%;
     height: 80%;
     padding: 20px;
@@ -17,8 +16,7 @@ form{
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 50px;
     border-radius: 15px;
-    margin-bottom: 100px;
-}
+    margin-bottom: 100px; }
 
 input, textarea{
     border: none;
