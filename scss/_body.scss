@@ -86,3 +86,43 @@ h7{
     display: none;
 }
 
+.fav{
+    margin-top: 20px;
+    align-items: center;
+    font-size: 29px;
+    color:#986bb3 ;
+    display: flex;
+  }
+
+
+  .mockUp {
+    margin: 25px;
+    margin-top: 50px;
+    width: 350px;
+    padding: 1px;
+    background-color: #dbdbdb; }
+  
+  .imagenesMockUp {
+    justify-content: center;
+    text-align: center; }
+  
+  .logoDisney {
+    text-align: center;
+    margin-top: 40px;
+    width: 260px;
+    justify-content: center; }
+  
+  .bannerCategorias {
+    text-align: center; }
+  
+  .logoMarvel {
+    text-align: center;
+    margin-top: 40px;
+    width: 470px;
+    justify-content: center; }
+  
+  .contenedor2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px; }
