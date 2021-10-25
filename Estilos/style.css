@@ -5,10 +5,7 @@
   font-family: 'Fira Sans Condensed', sans-serif; }
 
 .logo {
-  width: 120px; 
-  margin-top: 5px;
-  margin-left: 5px;
-}
+  width: 120px; }
 
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -21,19 +18,7 @@ h1 {
 
 h2 {
   text-align: center;
-  display: flex;
-  align-items: center;
-  font-size: 25px; 
-  margin-top: 10px;
-  margin-left: 15px;
-}
-.fav{
-  margin-top: 20px;
-  align-items: center;
-  font-size: 29px;
-  color:#986bb3 ;
-  display: flex;
-}
+  font-size: 25px; }
 
 h3 {
   color: pink;
@@ -46,8 +31,8 @@ p {
   margin-right: 20px; }
 
 h4 {
-  color: black;
-  font-size: 19px;
+  color: pink;
+  font-size: 22px;
   padding: 0 px;
   margin-left: 20px;
   text-align: center; }
@@ -64,7 +49,28 @@ h7 {
   font-weight: bold;
   margin-left: 16px; }
 
+.iconos {
+  font-size: 35px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: inline-block; }
 
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: left;
+  line-height: 80px;
+  margin-left: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: none; }
+
+#check {
+  display: none; }
 
 .divisionLogo {
   background-color: #ebb7e4;
@@ -73,6 +79,11 @@ h7 {
   margin-top: 0px;
   height: 1.5px; }
 
+.iconos {
+  width: 40px;
+  float: right;
+  margin-right: 18px;
+  margin-top: 60px; }
 
 a {
   text-decoration: none; }
@@ -80,17 +91,18 @@ a {
 .header {
   height: 180px;
   background-color: #f5c4f5;
-  color: black; 
-}
+  color: black; }
 
 header a {
   color: black;
   text-decoration: none; }
 
+.containerLogo {
+  display: inline; }
 
 .navigation ul {
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   list-style: none; }
 
 .navigation {
@@ -144,9 +156,7 @@ main {
   justify-content: center; }
 
 .flecha {
-  width: 70px; 
-  margin-top: 100px;
-}
+  width: 150px; }
 
 .iconoImagen {
   width: 230px;
@@ -154,41 +164,23 @@ main {
   justify-content: space-around; }
 
 .favoritas {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;}
+  margin-top: 3rem;
+  text-align: center; }
 
 .disney {
   background-color: #ffcaf3;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 .marvel {
   background-color: #fbffca;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 .series {
   background-color: #eed6fc;
-  display: flex;
   margin-top: 3rem;
-  text-align: center;
-  align-items: center;
-  padding: 5px;
-  width: 100%;
-}
+  text-align: center; }
 
 #info {
   text-align: center; }
@@ -283,6 +275,12 @@ table, th, td {
   text-align: justify;
   margin: 4%; }
 
+.somos {
+  text-align: center;
+  padding: 15px;
+  justify-content: center;
+  font-size: 20px; }
+
 footer {
   background-color: #dde6eb;
   padding-left: 15px;
@@ -334,16 +332,14 @@ form {
   align-items: center;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 50px;
   border-radius: 15px;
-  margin-bottom: 100px; 
-  margin-left:250px ;
-}
+  margin-bottom: 100px; }
 
 input, textarea {
   border: none;
   resize: none;
   outline: none;
   padding: 10px;
-  width: 80%;
+  width: 100%;
   margin: 20px;
   transition: all 300ms;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
@@ -448,123 +444,35 @@ input:focus, textarea:focus {
   .contenedor2 {
     justify-content: space-between; } }
 
-
-.container2 {
-  width: 110%;
-  max-width: 1200px;
-  margin-left: 35px;
-  margin-right: auto;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  display: grid;
-  grid-template-columns: repeat(5, 4fr);
-  grid-gap: 25px;}
-
-.item2 {
-  background-color: white;
-  cursor: pointer;
-  transition: all 300ms;
-  position: relative;
-  border-radius: 05px; 
-  margin-bottom: 5px;
-}
-
-.item2::after {
-  content: "";
-  background-color: rgba(0, 0, 0, 0.06);
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transition: all 300ms;
-  opacity: 0; }
-
-.item2:hover:after {
-  opacity: 1;
-  transform: scale(1); }
-
-.item2:hover {
-  transform: scale(1.05); }
-
-.item-text2 {
-  padding: 1em; }
-
-.item-img2 {
-  max-width: 100%;
-  display: block; 
-}
-
-.iconos{
-  font-size: 35px;
-  color: black;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  margin-top: 15px;
-  cursor: pointer;
-  display: inline-block;
-  }
-  
-
-
-.checkbtn{
-  font-size: 30px;
-  color: black;
-  float: left;
-  line-height: 80px;
-  margin-left: 20px;
-  margin-top: 15px;
-  cursor: pointer;
-  display: none;
-}
-
-#check{
-  display: none;
-}
-
-
-@media (max-width: 858px){
-  .checkbtn{
-    display: block;
-  }
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block; }
   ul {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: rgb(255, 255, 255);
-    top:80px;
+    background: white;
+    top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
-  }
-  nav ul li{
+    transition: all .5s; }
+  nav ul li {
     display: block;
     margin: 50px 0;
-    line-height: 30px;
-
-  }
-  nav ul li a{
-    font-size: 20px;
-  }
-  li a:hover, li a.active{
+    line-height: 30px; }
+  nav ul li a {
+    font-size: 20px; }
+  li a:hover, li a.active {
     background: none;
-    color: black;
-  }
-
-  .checkbtn:checked ~ ul{
-    left: 0;
-
-  }
-
+    color: black; }
+  .checkbtn:checked ~ ul {
+    left: 0; }
   .formulario {
     justify-content: center;
     display: flex;
     width: 80%;
     margin-top: 90px;
     justify-content: center; }
-  
   form {
     display: flex;
     flex-wrap: wrap;
@@ -577,30 +485,31 @@ input:focus, textarea:focus {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 50px;
     border-radius: 15px;
     margin-bottom: 100px; }
-
-    input, textarea {
-      border: none;
-      resize: none;
-      outline: none;
-      padding: 10px;
-      width: 60%;
-      margin: 20px;
-      transition: all 300ms;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-
-}
+  input, textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    width: 60%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .videoTaza {
+    width: 400px;
+    padding: 10px;
+    height: 10%;
+    margin-left: 15px; }
+  h4 {
+    font-size: 15px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
-
   .formulario {
     justify-content: center;
     align-items: center;
-    display:flex ;
+    display: flex;
     width: 40%;
     margin-top: 90px;
-    margin-left: 5px;
-    }
-  
+    margin-left: 5px; }
   form {
     display: flex;
     flex-wrap: wrap;
@@ -608,36 +517,34 @@ input:focus, textarea:focus {
     width: 60%;
     height: 20%;
     padding: 8px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 50px;
     border-radius: 15px;
     margin-bottom: 100px; }
-
-    input, textarea {
-      border: none;
-      resize: none;
-      outline: none;
-      padding: 10px;
-      width: 60%;
-      margin: 20px;
-      transition: all 300ms;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    }
-      
-      .botonEnviar {
-        border: none;
-        outline: none;
-        background-color: #986bb3;
-        padding: 8px;
-        width: 30px;
-        color: white;
-        border-radius: 3px;
-        box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
-        margin: 10px 0px;
-        justify-content: center;
-        align-items: center;
-        display: flow-root;
-        cursor: pointer;
-        transition: all 300ms; }
-}
+  input, textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    width: 60%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  .botonEnviar {
+    border: none;
+    outline: none;
+    background-color: #986bb3;
+    padding: 8px;
+    width: 30px;
+    color: white;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 50px;
+    margin: 4px 0px;
+    justify-content: center;
+    align-items: center;
+    display: flow-root;
+    cursor: pointer;
+    transition: all 300ms; }
+  h4 {
+    font-size: 15px; } }
